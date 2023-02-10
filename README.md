@@ -1,1 +1,5 @@
-# practice_HTML_CSS
+1. [«Waxom!»](./Waxom/)
+
+Используемые технологии:
+- HTML
+- CSS
