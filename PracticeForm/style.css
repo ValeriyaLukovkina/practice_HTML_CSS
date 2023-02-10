@@ -1,0 +1,184 @@
+
+
+.block_type {
+    padding: 20px 0 20px 0;
+}
+
+.title {
+    color: green;
+    display: block;
+    width: 20%;
+    text-align: center;
+    float: left;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    ba
+}
+.type_wrp {
+    float: right;
+    width: 80%;
+    text-align: start;
+}
+.txt {
+    font-weight: bold;
+    display: block;
+}
+
+.type_list {
+    position: relative;
+    padding: 0 0 10px 35px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.type_input {
+    display: none;
+}
+
+.type_list:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.type_input:checked + .type_list:after, .type_input:not(:checked) + .type_list:after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+.type_input:not(:checked) + .type_list:after {
+    opacity: 0;
+}
+
+.block_color {
+    padding: 20px 0 20px 0;
+}
+
+.color_wrp {
+    float: right;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.color_input {
+    display: block;
+    display: none;
+}
+
+.color_list {
+    position: relative;
+    padding: 0 80px 10px 35px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.color_list:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.color_input:checked + .color_list:after, .color_input:not(:checked) + .color_list:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 6px;
+    width: 10px;
+    height: 5px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    right: auto;
+    transform: rotate(-45deg);
+}
+
+.color_input:not(:checked) + .color_list:after {
+    opacity: 0;
+}
+
+.block_fio {
+    padding: 20px 0 20px 0;
+}
+
+.fio_wrp_total {
+    float: right;
+    width: 80%;
+}
+
+.fio_wrp {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.fio_list {
+margin-top: 5px;
+}
+
+.fio_input {
+    display: block;
+    width: 80%;
+    margin: 0 80px 0 0;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+}
+
+.block_contacts {
+    padding: 20px 0 20px 0;
+}
+
+.contacts_wrp {
+    margin: 1px 0 17px 0;
+    float: right;
+    width: 80%;
+}
+
+.contacts_wrp_tel {
+    position: relative;
+}
+.contacts_inp {
+    width: 95%;
+    padding: 5px 5px 5px 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+}
+
+.img_tel {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 5px;
+    right: 5%;
+}
+
+.contacts_wrp_mail {
+    position: relative;
+}
+
+.img_mail {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    right: 5%;
+}

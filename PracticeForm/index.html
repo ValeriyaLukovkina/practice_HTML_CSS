@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fontello.css">
+</head>
+<body>
+    <fieldset class="block_type">
+        <span class="title">тип</span>
+        <div class="type_wrp">
+            <input class="type_input" type="radio" name="type_input" id="accessory" value="accessory" checked>
+            <label class="txt type_list" for="accessory">Аксессуар для интерьера</label>
+            <input class="type_input" type="radio" name="type_input" id="child_toy" value="child_toy">
+            <label class="txt type_list" for="child_toy">Детская игрушка</label>
+        </div>
+    </fieldset>
+    <fieldset class="block_color">
+        <span class="title">Цвет</span>
+        <div class="color_wrp">
+            <input class="color_input" type="checkbox" value="white" name="color_input" id="white" checked>
+            <label for="white" class="txt color_list">Белый</label>
+            <input class="color_input" type="checkbox" value="grey" name="color_input" id="grey" checked>
+            <label for="grey" class="txt color_list">Серый</label>
+            <input class="color_input" type="checkbox" value="tiffani" name="color_input" id="tiffani">
+            <label for="tiffani" class="txt color_list">"Тиффани"</label>
+        </div>
+        <div class="color_wrp">
+            <input class="color_input" type="checkbox" value="black" name="color_input" id="black">
+            <label for="black" class="txt color_list">Черный</label>
+            <input class="color_input" type="checkbox" value="pink" name="color_input" id="pink">
+            <label for="pink" class="txt color_list">Розовый</label>
+            <input class="color_input" type="checkbox" value="orange" name="color_input" id="orange">
+            <label for="orange" class="txt color_list">Оранжевый</label>
+        </div>
+    </fieldset>
+    <fieldset class="block_fio">
+        <span class="title">фио</span>
+        <div class="fio_wrp_total">
+            <div class="fio_wrp">
+                <label class="txt fio_list">Фамилия:</label>
+                <input class="fio_input" type="text" placeholder="Укажите фамилию">
+            </div>
+            <div class="fio_wrp">
+                        <label class="txt fio_list">Имя:</label>
+            <input class="fio_input" type="text" placeholder="Введите ваше имя">
+            </div>
+            <div class="fio_wrp">
+                <label class="txt fio_list">Отчество:</label>
+                <input class="fio_input" type="text" placeholder="Отчество, если желаете">
+            </div>
+        </div>
+    </fieldset>
+    <fieldset class="block_contacts">
+        <span class="title">тел</span>
+        <div class="contacts_wrp contacts_wrp_tel">
+            <input class="contacts_inp contacts_tel" type="tel" placeholder="+7 XXX XX XX">
+            <img class="img_tel" src="image/tel_icon.png" alt=""> 
+        </div>
+        <span class="title">e-mail</span>
+        <div class="contacts_wrp contacts_wrp_mail">
+            <input class="contacts_inp contacts_email" type="email" placeholder="Мы не будем спамить, честно!">
+            <img class="img_mail" src="image/mail_icon.png" alt=""> 
+        </div>
+    </fieldset>
+</body>
+</html>
