@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top_contacts">
+        <div class="container">
+            <ul class="navigation navigation_contacts">
+                <li><a href="index.html"><img src="image/logo.svg" alt="logo"></a></li>
+                <li><a href="contacts.html"><img src="image/contacts.svg" alt="contacts"></a></li>
+            </ul>
+        </div>
+        <div class="contacts_header">
+            <div class="container">
+                <h2 class="contacts_header_title">Contact us</h2>
+                <p class="contacts_header_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, facilis.</p>
+            </div>
+        </div>
+    </div>
+    <form method="get" class="contacts_main container">
+        <div class="contacts_info_block">
+            <img class="contacts_info_img" src="image/contacts_info.svg" alt="">
+            <div class="contacts_info">
+                <h4 class="contacts_info_title">Adress</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="contacts_info">
+                <h4 class="contacts_info_title">Phone</h4>
+                <ul class="contacts_info_ul">
+                    <li class="contacts_info_tel"><a class="contacts_info_link" href="tel:+79112952948">+7(911)295-29-48</a></li>
+                    <li class="contacts_info_tel contacts_info_mini"><a class="contacts_info_link" href="tel:+79992031660">+7(999)203-16-60</a></li>
+                </ul> 
+            </div>
+            <div class="contacts_info">
+                <h4 class="contacts_info_title">Online service</h4>
+                <ul class="contacts_info_ul">
+                    <li class="contacts_info_href"><a class="contacts_info_link" href="index.html">Сайт</a></li>
+                    <li class="contacts_info_mail contacts_info_mini"><a class="contacts_info_link" href="mailto:valeriyalukovkina@gmail.com">valeriyalukovkina@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contacts_form">
+            <h4 class="contacts_info_title">Send us messange</h4>
+            <p class="contacts_info_text">Full name</p> <input class="messange" type="text" name="Name" placeholder="Введите вашу фамилию и имя"> <br>
+            <p class="contacts_info_text">Email</p> <input class="messange" type="email" name="email" placeholder="Введите вашу почту"> <br>
+            <p class="contacts_info_text">Messange</p> <textarea class="messange messange_text" name="messange" cols="30" rows="10" placeholder="Введите ваше сообщение"></textarea> <br>
+            <button type="submit" class="subm">submit</button>    
+        </div>
+    </form>
+    <!--  
+        Добавить карту
+        <ymaps></ymaps>
+    -->
+    <map id="Navigation" name="Navigation">
+        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15990.164718456563!2d30.421263099999994!3d59.935948800000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631f1a81e6de1%3A0x8d2b957976db2628!2z0J7RhdGC0LAg0JzQvtC70Ls!5e0!3m2!1sru!2sru!4v1650466878091!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </map>
+    <div class="footer">
+        <div class="footer_top container">
+            <div class="footer_text">
+                <h3 class="footer_top_title">Interested to woek with our team?</h3>
+                <p class="text footer_top_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, recusandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, eaque!</p>
+            </div>    
+                <form class="footer_form" action="#">
+                    <button class="footer_button">Let's Talk</button>
+                </form>
+        </div>
+        <hr>
+        <div class="footer_bottom container">
+            <div class="footer_info">
+                <div class="footer_bottom_contant">
+                    <span class="footer_bottom_span">A.</span><p class="text footer_bottom_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, dolorem!</p>
+                </div>
+                
+                <div class="phone">
+                    <span class="footer_bottom_span">Т.</span> <a class="footer_bottom_link" href="tel:+79112952948">+7(911)295-29-48</a>
+                </div>
+                <div class="mail">
+                    <span class="footer_bottom_span">E:</span> <a class="footer_bottom_link" href="mailto:valeriyalukovkina@gmail.com" target="_blank">valeriyalukovkina@gmail.com</a>
+                </div>
+            </div>
+                <div class="footer_copy">
+                    <p class="text footer_copy_text">2020 All rights reserved.</p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
